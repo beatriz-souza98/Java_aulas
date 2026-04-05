@@ -7,9 +7,6 @@ public class Desafio {
 //        Tenha um array com 5 números
 //        Use for para percorrer
 //        Use if para separar pares e ímpares
-//        Mostre:
-//        Quantos pares
-//        Quantos ímpares
 
         int[] numeros = {1, 2, 3, 4, 5};
 
