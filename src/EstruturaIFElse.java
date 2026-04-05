@@ -32,6 +32,9 @@ public class EstruturaIFElse {
         else {
             System.out.println("Compre nada, tu é lisa");
         }
+
+        String mensagem = (tempix) ? "Pedi um almoço" : "Come o que tem em casa";
+        System.out.println(mensagem);
     }
     }
 
