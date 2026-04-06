@@ -10,7 +10,6 @@ public class Desafio {
 
         int[] numeros = {1, 2, 3, 4, 5};
 
-
         for (int contador = 0; contador < numeros.length; contador++) {
             if (numeros[contador] % 2 == 0){
                 System.out.println("O número " + numeros[contador] + "  é par");
