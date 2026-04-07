@@ -12,12 +12,17 @@ public class exercicios_mentoria {
         System.out.println("Digite aqui o lado do quadrado: ");
         double lado = scanner.nextDouble();
         double area = lado * lado;
-        System.out.println("A área do quadrado é: " + area);
+        System.out.printf("A área do quadrado é: %.2f\n", area);
 
-//        1.2 Volume da Esfera
-//        Calcular e exibir o volume de uma esfera a partir do valor de seu diâmetro que será digitado.
-//
-//                Como calcular o volume da esfera
+//     1.2 Volume da Esfera
+//     Calcular e exibir o volume de uma esfera a partir do valor de seu diâmetro que será digitado
+
+        Scanner scanner1 = new Scanner(System.in);
+        System.out.println("Digite aqui o diâmetro da esfera: ");
+        double diamentro = scanner1.nextDouble();
+        double raio = diamentro / 2;
+        double resultado = (4.0 / 3) * Math.PI * Math.pow(raio, 3);
+        System.out.printf("O volume da esfera é: %.2f", resultado);
 //
 //        1.3 Média Aritmética
 //
@@ -28,6 +33,7 @@ public class exercicios_mentoria {
 //
 //        Sabendo que uma milha marítima equivale a um mil, oitocentos e cinqüenta e dois metros e que um
 //        quilômetro possui mil metros, fazer um programa para converter milhas marítimas em quilômetros.
-
+        scanner.close();
     }
+
 }
