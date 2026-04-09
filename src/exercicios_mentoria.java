@@ -28,6 +28,7 @@ public class exercicios_mentoria {
 
 //    1.3 Média Aritmética
 //    Calcular e exibir a média aritmética de quatro valores quaisquer que serão digitados.
+
         System.out.println("Digite 4 números para saber a média deles:");
         Scanner scanner2 = new Scanner(System.in);
         List<Integer> numeros = new ArrayList<>(4);
@@ -42,10 +43,17 @@ public class exercicios_mentoria {
         System.out.println(soma / numeros.size());
 
 //
-//        1.4 Milhas vs Km
-//
-//        Sabendo que uma milha marítima equivale a um mil, oitocentos e cinqüenta e dois metros e que um
-//        quilômetro possui mil metros, fazer um programa para converter milhas marítimas em quilômetros.
+//    1.4 Milhas vs Km
+//    Sabendo que uma milha marítima equivale a um mil, oitocentos e cinqüenta e dois metros e que um
+//    quilômetro possui mil metros, fazer um programa para converter milhas marítimas em quilômetros.
+
+        double milha = 1852;
+        System.out.println("Digite as milhas maritimas atuais: ");
+        Scanner scanner3 = new Scanner(System.in);
+        double milhasUser = scanner3.nextDouble();
+        double result = (milhasUser / milha);
+        System.out.println("As milhas Maritimas atual que são " + milhasUser + " equivalem a " + result + " quilomêtros");
+
         scanner.close();
     }
 
