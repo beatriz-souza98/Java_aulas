@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class exercicios_mentoria {
@@ -23,11 +25,22 @@ public class exercicios_mentoria {
         double raio = diamentro / 2;
         double resultado = (4.0 / 3) * Math.PI * Math.pow(raio, 3);
         System.out.printf("O volume da esfera é: %.2f", resultado);
-//
-//        1.3 Média Aritmética
-//
-//        Calcular e exibir a média aritmética de quatro valores quaisquer que serão digitados.
-//                Como calcular a média
+
+//    1.3 Média Aritmética
+//    Calcular e exibir a média aritmética de quatro valores quaisquer que serão digitados.
+        System.out.println("Digite 4 números para saber a média deles:");
+        Scanner scanner2 = new Scanner(System.in);
+        List<Integer> numeros = new ArrayList<>(4);
+
+        for (int i = 0; i < 4 ; i++) {
+        int numerosUser = scanner2.nextInt();
+        numeros.add(numerosUser);
+        }
+
+        double soma = 0;
+        for (double numero : numeros) soma += numero;
+        System.out.println(soma / numeros.size());
+
 //
 //        1.4 Milhas vs Km
 //
