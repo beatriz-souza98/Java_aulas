@@ -1,3 +1,5 @@
+package CalculadoraDeNotas;
+
 public class InformacoesAlunos {
 
 String nomeAluno;

@@ -1,3 +1,5 @@
+package CalculadoraDeNotas;
+
 import java.util.Scanner;
 
 public class SistemaDeNotas {
