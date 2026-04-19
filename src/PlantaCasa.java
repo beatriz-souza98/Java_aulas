@@ -20,4 +20,9 @@ public class PlantaCasa {
     public void pintar(){
         System.out.println("Cor da casa  " + cor);
     }
+
+    public void mudarCorParede(String novaCor){
+        cor = novaCor;
+        pintar();
+    }
 }

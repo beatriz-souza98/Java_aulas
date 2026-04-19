@@ -12,6 +12,7 @@ public class Casa {
         casa.pintar();
         int resultado = casa.somarmetragem();
         System.out.println(resultado);
+        casa.mudarCorParede("Branco");
 
     }
 }
