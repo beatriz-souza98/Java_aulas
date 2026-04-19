@@ -10,6 +10,8 @@ public class Casa {
 
         casa.construir();
         casa.pintar();
+        int resultado = casa.somarmetragem();
+        System.out.println(resultado);
 
     }
 }

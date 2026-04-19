@@ -13,6 +13,10 @@ public class PlantaCasa {
         System.out.println("Material " + material);
     }
 
+    public int somarmetragem(){
+        return metragem * numeroBanheiros + numeroQuartos;
+    }
+
     public void pintar(){
         System.out.println("Cor da casa  " + cor);
     }
