@@ -1,3 +1,5 @@
+import EtapaConstrucao.PlantaCasa;
+
 public class Casa {
     public static void main(String[] args) {
         PlantaCasa casa = new PlantaCasa();
