@@ -1,3 +1,5 @@
+package Desafios;
+
 import java.util.HashMap;
 
 public class Desafio3 {
