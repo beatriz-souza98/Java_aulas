@@ -1,3 +1,5 @@
+package logica_condicional;
+
 import java.util.Scanner;
 
 public class SwitchCase {

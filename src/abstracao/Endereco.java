@@ -1,4 +1,4 @@
-package abstração;
+package abstracao;
 
 public abstract class Endereco {
     private String rua;

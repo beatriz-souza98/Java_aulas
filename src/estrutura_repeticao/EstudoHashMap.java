@@ -1,3 +1,5 @@
+package estrutura_repeticao;
+
 import java.util.HashMap;
 import java.util.Map;
 

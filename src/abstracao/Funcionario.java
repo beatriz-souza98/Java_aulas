@@ -1,13 +1,16 @@
-package abstração;
+package abstracao;
 
-public class Cliente extends Endereco implements Pessoas{
+public class Funcionario extends Endereco implements Pessoas{
+
     private String nome;
     private String documento;
+    private String cargo;
 
-    public Cliente(String rua, String cidade, String estado, String cep, String nome, String documento) {
-        super(rua, cidade, estado, cep);
+    public Funcionario(String rua, String numero, String cidade, String estado, String cep, String nome, String documento, String cargo) {
+        super(rua, numero, cidade, estado, cep);
         this.nome = nome;
         this.documento = documento;
+        this.cargo = cargo;
     }
 
     @Override
@@ -27,19 +30,19 @@ public class Cliente extends Endereco implements Pessoas{
 
     @Override
     public void setDocumento(String documento) {
-        this.documento = documento;
+        this.nome = documento;
     }
 
     @Override
     public String toString() {
-        return "Cliente{" +
+        return "Funcionario{" +
                 "nome='" + nome + '\'' +
                 ", documento='" + documento + '\'' +
+                ", cargo='" + cargo + '\'' +
                 '}';
     }
-
-    @Override
+@Override
     public void mostrarEndereco(){
-        System.out.println("O endereço do cliente é: " + getRua() + getNumero() + getCidade() + getEstado() + getCep());
+        System.out.println("O endereço do funcionário é: " + getRua() + getNumero() + getCidade() + getEstado() + getCep());
     }
 }

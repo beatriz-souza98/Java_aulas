@@ -1,4 +1,4 @@
-package abstração;
+package abstracao;
 
 public interface Pessoas {
     String getNome();

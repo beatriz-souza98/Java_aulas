@@ -1,3 +1,5 @@
+package logica_condicional;
+
 public class OperadoresLogicos {
 
     public static void main(String[] args) {

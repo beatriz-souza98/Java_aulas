@@ -1,4 +1,4 @@
-package etapa_construção;
+package etapa_construcao;
 
 public class Casa {
     public static void main(String[] args) {

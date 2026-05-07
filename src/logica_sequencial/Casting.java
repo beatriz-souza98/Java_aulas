@@ -1,3 +1,5 @@
+package logica_sequencial;
+
 public class Casting {
 
     public static void main(String[] args) {

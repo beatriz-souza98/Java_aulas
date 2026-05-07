@@ -1,3 +1,5 @@
+package estrutura_repeticao;
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,3 +1,5 @@
+package estrutura_repeticao;
+
 public class Array {
 
     public static void main(String[] args) {

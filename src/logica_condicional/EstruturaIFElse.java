@@ -1,3 +1,5 @@
+package logica_condicional;
+
 public class EstruturaIFElse {
 
     public static void main(String[] args) {

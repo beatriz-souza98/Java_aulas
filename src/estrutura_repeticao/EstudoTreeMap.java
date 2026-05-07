@@ -1,4 +1,5 @@
-import java.util.Map;
+package estrutura_repeticao;
+
 import java.util.TreeMap;
 
 public class EstudoTreeMap {
