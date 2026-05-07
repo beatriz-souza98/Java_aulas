@@ -1,4 +1,4 @@
 package exececao.NaoVerificada;
 
-public class NaoVerificada {
+public class VerificaCpf {
 }
