@@ -1,4 +1,4 @@
-package exececao;
+package exececao.NaoVerificada;
 
 public class NaoVerificada {
 }
